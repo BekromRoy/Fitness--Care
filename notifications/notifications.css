@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", "Arial", "sans-serif";
+}
+/* section1 */
+.section1-noti {
+  width: 100%;
+  padding: 100px 80px 30px 80px;
+  background: #fff;
+}
+.section1-noti p:nth-child(1) {
+  font-size: 50px;
+  color: #222;
+}
+.section1-noti p:nth-child(2) {
+  font-size: 15px;
+  color: #ff8787;
+  margin-top: 10px;
+  text-align: center;
+}

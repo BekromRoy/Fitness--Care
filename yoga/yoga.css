@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400');
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hind', sans-serif;
+}
+/* section1 */
+.sectionfaq1 {
+  width: 100%;
+  min-height: 100vh;
+}
+.bek-back1 {
+  width: 100%;
+  min-height: 100vh;
+  background: url(r.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.bek-back2 {
+  width: 100%;
+  min-height: 100vh;
+  background: url(r1.jpg);
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+}
+.bek-yoga-center {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-shadow: 0 0 5px #222;
+}
+.bek-yoga-center p {
+  text-transform: uppercase;
+}
+.bek-yoga-center h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+.bek-yoga-center button {
+  border: none;
+  outline: none;
+  padding: 10px 25px;
+  background: #ff6060;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 30px;
+  transition: .3s;
+}
+.bek-yoga-center button:hover {
+  background: #fff;
+  color: #000;
+  margin-top: 25px;
+}
+
+/* pranayam section */
+#pranayam {
+  width: 100%;
+  padding: 40px;
+}
+#pranayam h1 {
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+#pranayam .col-md-4 img {
+  width: 100%;
+  margin-top: 30px;
+}
+#pranayam .col-md-4 h2 {
+  margin-bottom: 30px;
+}
+#pranayam .col-md-4 .bek-muted {
+  color: #999;
+  font-weight: 400;
+}
+#pranayam .col-md-4 .bek-muted-half {
+  color: #666;
+  font-weight: 400;
+}
+#pranayam .col-md-4 .bek-active {
+  color: #000;
+  font-weight: 400;
+}
+#pranayam button {
+  border: none;
+  outline: none;
+  padding: 10px 35px;
+  background: #ffaaaa;
+  transition: .3s;
+  color: #fff;
+  text-transform: uppercase;
+}
+#pranayam button:hover {
+  background: #ff8787;
+}
+
+/* yoga section */
+#yoga {
+  width: 100%;
+  padding: 40px;
+}
+#yoga h1 {
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+#yoga .col-md-4 img {
+  width: 100%;
+  margin-top: 30px;
+}
+#yoga .col-md-4 h2 {
+  margin-bottom: 30px;
+}
+#yoga .col-md-4 .bek-muted {
+  color: #999;
+  font-weight: 400;
+}
+#yoga .col-md-4 .bek-muted-half {
+  color: #666;
+  font-weight: 400;
+}
+#yoga .col-md-4 .bek-active {
+  color: #000;
+  font-weight: 400;
+}
+#yoga button {
+  border: none;
+  outline: none;
+  padding: 10px 35px;
+  background: #ffaaaa;
+  transition: .3s;
+  color: #fff;
+  text-transform: uppercase;
+}
+#yoga button:hover {
+  background: #ff8787;
+}
+
+
+/* media query */
+@media only screen and (max-width: 770px) {
+  .bek-out {
+    flex-direction: column;
+  }
+  .bek-col-md-6 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400');
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hind', sans-serif;
+}
+/* section1 */
+.sectionfaq1 {
+  width: 100%;
+  padding: 20px 90px 20px 90px;
+  background-color: #fff;
+  position: relative;
+}
+.bek-out {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.bek-col-md-6 {
+  width: 50%;
+}
+.bek-col-md-6 p {
+  color: #333;
+  font-size: 30px;
+  font-weight: 600;
+}
+.bek-col-md-6 p span {
+  color: #ff2b2b;
+  font-size: 60px;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.bek-col-md-6 img {
+  width: 85%;
+}
+.bek-downbtn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 60px;
+  color: #aaa;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  animation: btnrotate 1.5s linear infinite;
+}
+@keyframes btnrotate {
+  0% {
+    bottom: -30px;
+  }
+  50% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: -30px;
+  }
+}
+
+/* section2 */
+.section2 {
+  width: 100%;
+  padding: 60px;
+  background: #ffeaea;
+}
+.section2 h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section2 .col-1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 40px;
+}
+.section2 .col-1 i {
+  font-size: 20px;
+  color: #ff2b2b;
+}
+.bek-heading {
+  font-weight: 800;
+  margin-bottom: 25px;
+  font-size: 20px;
+  color: #000;
+}
+
+/* section3 */
+.section3 {
+  width: 100%;
+  padding: 60px;
+  background: #fff;
+}
+.section3 h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.section3 p {
+  color: #666;
+  line-height: 40px;
+}
+.bek-price {
+  margin: 20px;
+  background: #fff;
+  padding: 15px 40px;
+  text-align: center;
+  cursor: pointer;
+}
+.bek-price p {
+  color: #000;
+  line-height: 30px;
+  font-weight: 600;
+  margin: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+
+/* media query */
+@media only screen and (max-width: 770px) {
+  .bek-out {
+    flex-direction: column;
+  }
+  .bek-col-md-6 {
+    width: 100%;
+  }
+}

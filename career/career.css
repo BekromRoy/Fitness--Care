@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", "Arial", "sans-serif";
+}
+/* section1 */
+.section-career1 {
+  width: 100%;
+  padding: 120px;
+  background-color: #fff;
+}
+.bek-out {
+  position: relative;
+}
+.bek-text4 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.bek-text4 p:nth-child(1) {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.bek-text4 p:nth-child(2) {
+  font-size: 15px;
+  color: #555;
+}
+.bek-text4 span {
+  font-size: 45px;
+  text-transform: uppercase;
+  color: #ff2b2b;
+  font-style: italic;
+}
+.bek-out button {
+  position: absolute;
+  z-index: 9;
+  right: 50%;
+  transform: translate(-50%,0%);
+  border: none;
+  outline: none;
+  font-size: 40px;
+  color: #ff2b2b;
+  background-color: #fff0;
+  animation: button 1s linear infinite;
+  opacity: 0;
+}
+.bek-out button:nth-child(1) {
+  bottom: -20%;
+  animation-delay: 0s;
+}
+.bek-out button:nth-child(2) {
+  bottom: -25%;
+  animation-delay: 0s;
+}
+.bek-out button:nth-child(3) {
+  bottom: -30%;
+  animation-delay: .3s;
+}
+@keyframes button {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* section2 */
+.section-career2 {
+  width: 100%;
+  padding: 80px;
+  background-color: #fff;
+}
+.section-career2 p {
+  font-size: 4vw;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.form1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+.form1 label {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0 10px 10px;
+}
+.form1 select {
+  padding: 14px 20px;
+  border: 1px solid #ffb2b2;
+  outline: none;
+  background-color: #ffd4d4;
+  backdrop-filter: blur(10px);
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  border-radius: 8px;
+}
+.form1 input {
+  margin: 0 0 10px 0;
+  padding: 14px 30px;
+  border-radius: 30px;
+  border: 1px solid #ffb2b2;
+  background-color: #ffd4d4;
+  outline: none;
+  backdrop-filter: blur(10px);
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+.form1 .bek-submit {
+  margin: 40px 0 0 0;
+  padding: 14px 30px;
+  border-radius: 30px;
+  border: 1px solid #ffb2b2;
+  background-color: #ff2b2b;
+  outline: none;
+  backdrop-filter: blur(10px);
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  width: 50%;
+  transition: .3s;
+}
+.form1 .bek-submit:hover {
+  background-color: #fff;
+  color: #ff2b2b;
+  border: 1px solid #ff2b2b;
+  width: 50%;
+}
+.col-md-5 {
+  justify-content: center;
+  display: flex;
+}
+.col-md-5 img {
+  width: 100%;
+}

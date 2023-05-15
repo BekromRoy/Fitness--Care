@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400');
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hind', sans-serif;
+  background: #fff;
+  color: #df7020;
+}
+/* section1 */
+.sectionfaq1 {
+  width: 100%;
+  height: 625px;
+  padding: 40px 80px;
+  background: url(2q.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+}
+.bek-out {
+  align-items: center;
+  justify-content: left;
+  display: flex;
+}
+.bek-col-md-6 {
+  width: 50%;
+}
+.bek-col-md-6 p {
+  color: #ff2b2b;
+  text-shadow: 0px 0px 20px #000;
+  font-size: 38px;
+  font-weight: 800;
+}
+/* section2 */
+.sectionabout2 {
+  width: 100%;
+  padding: 80px;
+  background: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.sectionabout2 img {
+  width: 500px;
+  margin-bottom: 30px;
+}
+.sectionabout2 h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #222;
+}
+.sectionabout2 p {
+  font-size: 16px;
+  color: #222;
+  font-weight: 500;
+}
+/* section3 */
+.sectionabout3 {
+  width: 100%;
+  padding: 30px 60px 100px 60px;
+  background: #fff;
+}
+.bek-center {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 100px 0;
+}
+.bek-design {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+.bek-design>*, .bek-blend>* {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+}
+.bek-rotate2 {
+  border: 15px solid #eb311f;
+  transform: rotate(45deg);
+  box-shadow: 0 0 10px #eb311f, inset 0 0 20px #eb311f;
+}
+.bek-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.bek-data {
+  background: #fff;
+}
+.bek-blend {
+  mix-blend-mode: multiply;
+}
+.sectionabout3 img {
+  object-fit: cover;
+}
+.bek-member-text {
+  color: #111;
+  font-size: 60px;
+  text-shadow: 0 0 10px #aaa;
+  font-style: italic;
+  font-weight: 800;
+  text-align: center;
+}
+/* media query */
+@media only screen and (max-width: 770px) {
+  .bek-out {
+    flex-direction: column;
+  }
+  .bek-col-md-6 {
+    width: 100%;
+  }
+  .sectionabout2 {
+    width: 100%;
+    padding: 80px 10px;
+  }
+  .sectionabout2 img {
+    width: 300px;
+  }
+}

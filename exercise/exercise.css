@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400');
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hind', sans-serif;
+}
+/* section1 */
+.sectionfaq1 {
+  width: 100%;
+  min-height: 100vh;
+}
+.bek-back1 {
+  width: 100%;
+  min-height: 100vh;
+  background: url(r.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.bek-back2 {
+  width: 100%;
+  min-height: 100vh;
+  background: url(r1.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.bek-back3 {
+  width: 100%;
+  min-height: 100vh;
+  background: url(r2.jpg);
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+}
+.bek-back4 {
+  width: 100%;
+  min-height: 100vh;
+  background: url(r3.jpg);
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+}
+.bek-yoga-center {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-shadow: 0 0 5px #222;
+}
+.bek-yoga-center p {
+  text-transform: uppercase;
+}
+.bek-yoga-center h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+.bek-yoga-center button {
+  border: none;
+  outline: none;
+  padding: 10px 25px;
+  background: #ff6060;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 30px;
+  transition: .3s;
+}
+.bek-yoga-center button:hover {
+  background: #fff;
+  color: #000;
+  margin-top: 25px;
+}
+
+/* abs section */
+#abs {
+  width: 100%;
+  padding: 40px;
+}
+#abs h1 {
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+#abs .col-md-4 img {
+  width: 100%;
+  margin-top: 30px;
+}
+#abs .col-md-4 h2 {
+  margin-bottom: 30px;
+}
+#abs .col-md-4 .bek-muted {
+  color: #999;
+  font-weight: 400;
+}
+#abs .col-md-4 .bek-muted-half {
+  color: #666;
+  font-weight: 400;
+}
+#abs .col-md-4 .bek-active {
+  color: #000;
+  font-weight: 400;
+}
+#abs button {
+  border: none;
+  outline: none;
+  padding: 10px 35px;
+  background: #ffaaaa;
+  transition: .3s;
+  color: #fff;
+  text-transform: uppercase;
+}
+#abs button:hover {
+  background: #ff8787;
+}
+
+
+/* chest section */
+#chest {
+  width: 100%;
+  padding: 40px;
+}
+#chest h1 {
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+#chest .col-md-4 img {
+  width: 100%;
+  margin-top: 30px;
+}
+#chest .col-md-4 h2 {
+  margin-bottom: 30px;
+}
+#chest .col-md-4 .bek-muted {
+  color: #999;
+  font-weight: 400;
+}
+#chest .col-md-4 .bek-muted-half {
+  color: #666;
+  font-weight: 400;
+}
+#chest .col-md-4 .bek-active {
+  color: #000;
+  font-weight: 400;
+}
+#chest button {
+  border: none;
+  outline: none;
+  padding: 10px 35px;
+  background: #ffaaaa;
+  transition: .3s;
+  color: #fff;
+  text-transform: uppercase;
+}
+#chest button:hover {
+  background: #ff8787;
+}
+
+
+/* arm section */
+#arm {
+  width: 100%;
+  padding: 40px;
+}
+#arm h1 {
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+#arm .col-md-4 img {
+  width: 100%;
+  margin-top: 30px;
+}
+#arm .col-md-4 h2 {
+  margin-bottom: 30px;
+}
+#arm .col-md-4 .bek-muted {
+  color: #999;
+  font-weight: 400;
+}
+#arm .col-md-4 .bek-muted-half {
+  color: #666;
+  font-weight: 400;
+}
+#arm .col-md-4 .bek-active {
+  color: #000;
+  font-weight: 400;
+}
+#arm button {
+  border: none;
+  outline: none;
+  padding: 10px 35px;
+  background: #ffaaaa;
+  transition: .3s;
+  color: #fff;
+  text-transform: uppercase;
+}
+#arm button:hover {
+  background: #ff8787;
+}
+
+
+/* leg section */
+#leg {
+  width: 100%;
+  padding: 40px;
+}
+#leg h1 {
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+#leg .col-md-4 img {
+  width: 100%;
+  margin-top: 30px;
+}
+#leg .col-md-4 h2 {
+  margin-bottom: 30px;
+}
+#leg .col-md-4 .bek-muted {
+  color: #999;
+  font-weight: 400;
+}
+#leg .col-md-4 .bek-muted-half {
+  color: #666;
+  font-weight: 400;
+}
+#leg .col-md-4 .bek-active {
+  color: #000;
+  font-weight: 400;
+}
+#leg button {
+  border: none;
+  outline: none;
+  padding: 10px 35px;
+  background: #ffaaaa;
+  transition: .3s;
+  color: #fff;
+  text-transform: uppercase;
+}
+#leg button:hover {
+  background: #ff8787;
+}
+
+
+/* media query */
+@media only screen and (max-width: 770px) {
+  .bek-out {
+    flex-direction: column;
+  }
+  .bek-col-md-6 {
+    width: 100%;
+  }
+}

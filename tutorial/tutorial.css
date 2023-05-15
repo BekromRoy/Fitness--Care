@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", "Arial", "sans-serif";
+}
+/* section1 */
+.section1 {
+  width: 100%;
+  background-color: #fff;
+}
+.section2 {
+  width: 100%;
+  padding: 100px 80px 0 80px;
+  background-color: #fff;
+}
+.section3 {
+  width: 100%;
+  padding: 50px 80px;
+  background-color: #aabfff;
+}
+h2 {
+  font-size: 2em;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000;
+}
+.bek-text1 {
+  color: #888;
+  margin: 30px 0 70px 0;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.outbox {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-right: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bek-box1 {
+  width: 20%;
+  height: 100%;
+  background-color: #ff2b2b;
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px 0 0 5px;
+}
+.bek-text2 {
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+}
+.bek-box2 {
+  width: 80%;
+  height: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 0 5px 5px 0;
+}

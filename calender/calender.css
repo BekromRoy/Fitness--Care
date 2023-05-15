@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", "Arial", "sans-serif";
+}
+/* section1 */
+.section1-calender {
+  width: 100%;
+  height: 675px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#bae5ff, #fff);
+  overflow: hidden;
+}
+.section1-calender::before {
+  content: '';
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 0;
+  left: 0;
+  background: #3fff3f/* linear-gradient(#ffc107, #e91e63)*/;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+}
+.section1-calender::after {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  bottom: 0;
+  right: 0;
+  background: #ff5656/* linear-gradient(#2196f3, #31ff38)*/;
+  border-radius: 50%;
+  transform: translate(50%,50%);
+}

@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", "Arial", "sans-serif";
+}
+/* section1 */
+.section1-calender {
+  width: 100%;
+  height: 675px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #bae5ff;
+  overflow: hidden;  
+}
+.section1-calender::before {
+  content: '';
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 0;
+  left: 0;
+  background: #3fff3f/* linear-gradient(#ffc107, #e91e63)*/;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+}
+.section1-calender::after {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  bottom: 0;
+  right: 0;
+  background: #ff5656/* linear-gradient(#2196f3, #31ff38)*/;
+  border-radius: 50%;
+  transform: translate(50%,50%);
+}
+.bek-box-calender {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+}
+.bek-container-calender {
+  position: relative;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(22px);
+  border-radius: 10px;
+  border-top: 0;
+}
+.bek-container2-calender {
+  border-radius: 10px;
+  padding: 3px 0 0 80px;
+}
+#dycalendar {
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 0;
+}
+#dycalendar table {
+  width: 100%;
+  margin-top: 40px;
+  border-spacing: 6px;
+}
+#dycalendar table tr:nth-child(1) td {
+  background-color: #fff;
+  color: #111;
+  font-weight: 600;
+  border-radius: 5px;
+}
+#dycalendar table tr {
+  height: 10vh !important;
+}
+#dycalendar table td {
+  color: #111;
+  transition: .3s;
+}
+#dycalendar table td:hover {
+  background-color: #ff8787 !important;
+  color: #fff !important;
+}
+.dycalendar-month-container .dycalendar-today-date, .dycalendar-month-container .dycalendar-target-date {
+  background-color: #ff2b2b !important;
+  color: #fff !important;
+}
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn, .dycalendar-prev-next-btn.next-btn{
+  background-color: #ff8787;
+  color: #fff;
+  width: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin: 0 6px;
+  transition: .3s;
+}
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn:hover {
+  background-color: #ff2b2b;
+}
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.next-btn:hover {
+  background-color: #ff2b2b;
+}
+.dycalendar-month-container .dycalendar-span-month-year {
+  color: #ff2b2b;
+  font-size: 2em;
+  font-weight: 600;
+}
+.bek-dropbtn-calender {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  margin: 0 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px 0 0 -20px;
+}
+.bek-dropdown1-calender {
+  position: relative;
+  display: inline-block;
+}
+.bek-dropdown2-calender {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  display: none;
+  position: fixed;
+  background-color: #222638;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  transition: .4s;
+  width: 100%;
+  right: 0;
+}
+.bek-dropdown2-calender a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  margin: 0 30px;
+  text-transform: uppercase;
+}
+.bek-dropdown1-calender:hover .bek-dropdown2-calender {
+  display: block;
+}
+.bek-dropbtn-calender .bek-rotate-calender {
+  color: #ff2b2b;
+  transition: .2s;
+}
+.bek-dropdown1-calender:hover .bek-rotate-calender {
+  transform: rotate(180deg);
+}
+.bek-link-calender {
+  color: #000;
+  text-transform: uppercase;
+}
+.bek-dropdown-in-calender {
+  padding: 30px 10%;
+}
+.bek-dropdown2 a:hover {
+  color: #ff2b2b;
+}

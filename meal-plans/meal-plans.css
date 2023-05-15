@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", "Arial", "sans-serif";
+  background: linear-gradient(180deg, rgba(43,165,255,0.4598214285714286) 0%, rgba(255,255,255,1) 95%);
+} 
+p {
+  margin: 0;
+}
+/* section1 */
+.section1-account {
+  width: 100%;
+  padding: 80px;
+}
+.account1 {
+  font-size: 45px;
+  color: #222;
+  font-weight: 400;
+}
+.account2 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+.section2-account {
+  width: 100%;
+  padding: 30px;
+}
+.bek-center2 {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+.card {
+  overflow: hidden;
+  background: #2b1616;
+  margin-bottom: 30px;
+}
+.card:hover {
+  transition: .3s;
+  border: 1px solid #ff2b2b;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  transition: .5s;
+}
+.card:hover img {
+  transform: scale(1.05);
+}
+.col-md-4 {
+  background: #2b1616;
+}
+.card-body {
+  padding: 50px;
+  color: #fff;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.card-body p {
+  margin: 5px 0;
+}
